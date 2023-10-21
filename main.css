@@ -38,3 +38,35 @@ body{
 .header-tagline{
     margin-top: 0;
 }
+
+/* Main Content CSS */
+
+.main-content-grid{
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.main-content-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-content-flex-item{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bond-image-box{
+    width: 18rem;
+}
+
+.bond-image{
+    width: 100%;
+    border-radius: 100%;
+}
