@@ -4,3 +4,37 @@ body{
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
+
+/* Header CSS */
+.header-grid{
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.header-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-flex-item{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo{
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+.header-logo-img{
+    width: 100%;
+}
+
+.header-tagline{
+    margin-top: 0;
+}
