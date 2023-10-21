@@ -102,3 +102,39 @@ th,td{
 .mission-name{
     font-weight: bold;
 }
+
+/* Footer CSS */
+
+.footer-grid{
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.footer-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.footer-flex-item{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: white;
+    font-weight: bold;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
