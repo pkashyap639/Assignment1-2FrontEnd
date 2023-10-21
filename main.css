@@ -62,6 +62,13 @@ body{
     align-items: center;
 }
 
+.main-content-flex-item2{
+    flex: 1;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
 .bond-image-box{
     width: 18rem;
 }
@@ -84,4 +91,14 @@ table,td,th,tr{
 
 th,td{
     padding: 10px 16px;
+}
+
+/* SideBar CSS */
+.mission-link{
+    text-decoration: none;
+    color: black;
+}
+
+.mission-name{
+    font-weight: bold;
 }
