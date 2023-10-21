@@ -7,3 +7,25 @@
 .company-logo{
     width: 100%;
 }
+
+/* Media Queries */
+/* Mobile View */
+@media only screen and (max-width: 425px) {
+    .main-content-grid{
+        display: grid;
+        margin: 0 auto;
+        width: 90%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .main-content-flex-item2{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .company-logo-box{
+        width: 4rem;
+    }
+}
